@@ -1,0 +1,6 @@
+{
+    "extends": ["airbnb-base", "airbnb/hooks"],
+    "rules":{
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
+    }
+}
